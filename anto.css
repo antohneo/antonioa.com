@@ -1,0 +1,53 @@
+body{
+    padding: 2em;
+    background: #FFFFFF;
+    font-family: 'Catamaran', sans-serif;
+    font-size: x-large;
+    color: #565b5a;
+}
+
+h2{
+    font-weight: bold;
+    margin-before: 1em;
+    margin-after: 1em;
+    border-bottom: .05em solid #d4d4d4;
+}
+
+.jumbotron{
+    color: #2c3e50;
+}
+
+.navbar{
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+.navbar-inverse{
+    backgroud:#2c3e50;
+}
+
+.navbar-inverse .navbar-nav>li>a{
+    color:white;
+}
+
+.navbar-inverse .navbar-brand{
+    color:white;
+}
+
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.thumbnail{
+    background: #3284BF;
+}
+
+img {
+    width: 10em; /* you can use % */
+    height: auto;
+}
+
+.fa {
+   font-size: 1.5em; 
+}
