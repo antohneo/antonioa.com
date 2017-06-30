@@ -1,22 +1,4 @@
-body{
-    padding: 2em;
-    background: #FFFFFF;
-    font-family: 'Catamaran', sans-serif;
-    font-size: 14px;
-    color: #565b5a;
-}
-
-h2{
-    font-weight: bold;
-    margin-before: 1em;
-    margin-after: 1em;
-    border-bottom: .05em solid #d4d4d4;
-}
-
-.jumbotron{
-    color: #2c3e50;
-}
-
+/*Navigation bar*/
 .navbar{
     padding-left: 1em;
     padding-right: 1em;
@@ -41,6 +23,44 @@ h2{
 
 .thumbnail{
     background: #3284BF;
+}
+/*************************************************************/
+/*Body*/
+body{
+    background: url(https://media3.giphy.com/media/3og0Izv3p7vMprq2Qw/giphy.gif);
+    background-size: cover;
+    background-position: center;    
+    padding: 4em;
+    font-family: 'Catamaran', sans-serif;
+    font-size: 14px;
+    color: #2E2E2E;
+}
+
+.about{
+    background: #FFFFFF;
+} 
+/*************************************************************/
+
+#content{
+    text-align: center;
+    padding-top: 25%;
+    text-shadow: 0px 4px 3px rgba(0,0,0,0.4), 
+                 0px 8px 13px rgba(0,0,0,0.1),
+                 0px 18px 23px rgba(0,0,0,0.1);
+}
+h1{
+    font-weight: 700;
+    font-size: 5em;
+}
+
+h2{
+    font-weight: bold;
+    border-bottom: .05em solid #d4d4d4;
+}
+
+h3{
+    font-weight: 700;
+    font-size: 3em;
 }
 
 img {
