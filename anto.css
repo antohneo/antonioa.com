@@ -26,10 +26,7 @@
 }
 /*************************************************************/
 /*Body*/
-body{
-    background: url(https://media3.giphy.com/media/3og0Izv3p7vMprq2Qw/giphy.gif);
-    background-size: cover;
-    background-position: center;    
+body{ 
     padding: 4em;
     font-family: 'Catamaran', sans-serif;
     font-size: 14px;
@@ -38,6 +35,16 @@ body{
 
 .about{
     background: #FFFFFF;
+}
+
+.hotdog{
+    background: url(https://media3.giphy.com/media/3og0Izv3p7vMprq2Qw/giphy.gif);   
+    background-size: cover;
+    background-position: center;    
+}
+.notHotDog{
+    background: url(https://source.unsplash.com/UW_gRafMxE0);
+    color: #FFFFFF;
 } 
 /*************************************************************/
 
