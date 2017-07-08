@@ -32,11 +32,11 @@ body{
     font-family: 'Catamaran', sans-serif;
 }
 .square{
-    width: 30%;
+    width: 22%;
     background: purple;
-    padding-bottom: 30%;
+    padding-bottom: 22%;
     float: left;
-    margin: 1.66%;
+    margin: 1.5%;
     border-radius: 40%;
     /*only transitions in 0.75s for background changes*/
     transition: background 0.75s;

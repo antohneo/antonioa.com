@@ -1,4 +1,4 @@
-var numSquares = 6;
+var numSquares = 12;
 var colors = [];
 var goalColor;
 
@@ -27,8 +27,17 @@ function setupModeBtns(){
         modeBtn[i].addEventListener("click", function(){
             modeBtn[0].classList.remove("selected");
             modeBtn[1].classList.remove("selected");
+            modeBtn[2].classList.remove("selected"); 
             this.classList.add("selected");
-            this.textContent === "Easy" ? numSquares = 3: numSquares = 6;
+            if (this.textContent === "Easy") {
+                numSquares = 4;
+            }
+            else if (this.textContent === "Medium") {
+                numSquares = 8;
+            }
+            else {
+                numSquares = 12;
+            }
             reset();
         })
     }
