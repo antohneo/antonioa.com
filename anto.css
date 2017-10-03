@@ -38,10 +38,10 @@ body{
 }
 
 .hotdog{
-    background: url(https://media3.giphy.com/media/3og0Izv3p7vMprq2Qw/giphy.gif) repeat center center; 
+    background: url(https://media3.giphy.com/media/3og0Izv3p7vMprq2Qw/giphy.gif) repeat; 
 }
 .notHotDog{
-    background: url(https://source.unsplash.com/uvMYpVdiqlU) repeat center center; 
+    background: url(https://source.unsplash.com/uvMYpVdiqlU) repeat; 
 } 
 /*************************************************************/
 
