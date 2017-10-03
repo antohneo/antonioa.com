@@ -51,7 +51,7 @@ body{
 } 
 .notHotDog{
     background: url(https://source.unsplash.com/uvMYpVdiqlU) 
-    no-repeat center center fixed;
+    #2E2E2E no-repeat center center fixed;
     -webkit-background-size: 100%; 
     -moz-background-size: 100%; 
     -o-background-size: 100%; 
