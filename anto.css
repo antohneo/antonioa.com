@@ -50,6 +50,7 @@ body{
     background-size: cover; 
 } 
 .notHotDog{
+    /*Desktop*/
     background: url(https://source.unsplash.com/uvMYpVdiqlU) 
     #2E2E2E no-repeat center center fixed;
     -webkit-background-size: 100%; 
@@ -60,7 +61,12 @@ body{
     -moz-background-size: cover; 
     -o-background-size: cover; 
     background-size: cover;
-    color: #FFFFFF; 
+    color: #FFFFFF;
+
+    /*Mobile*/
+    @media only screen and (max-width: 599px) { 
+        background: url(https://source.unsplash.com/lpjb_UMOyx8)
+    }
 } 
 /*************************************************************/
 
