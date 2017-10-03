@@ -38,18 +38,18 @@ body{
 }
 
 .hotdog{
-    background: url(https://media3.giphy.com/media/3og0Izv3p7vMprq2Qw/giphy.gif) no-repeat center center fixed; 
-    -webkit-background-size: 100% auto-contain;
-    -moz-background-size: 100% auto-contain;
-    -o-background-size: 100% auto-contain;
-    background-size: 100% auto-contain;
+    background: url(https://media3.giphy.com/media/3og0Izv3p7vMprq2Qw/giphy.gif) repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 .notHotDog{
-    background: url(https://source.unsplash.com/uvMYpVdiqlU) no-repeat center center fixed; 
-    -webkit-background-size: 100% auto-contain;
-    -moz-background-size: 100% auto-contain;
-    -o-background-size: 100% auto-contain;
-    background-size: 100% auto-contain;
+    background: url(https://source.unsplash.com/uvMYpVdiqlU) repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
     color: #FFFFFF;
 } 
 /*************************************************************/
