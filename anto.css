@@ -39,7 +39,7 @@ body{
 
 .hotdog{
     background: url(https://media3.giphy.com/media/3og0Izv3p7vMprq2Qw/giphy.gif) 
-    no-repeat center center fixed;
+    #000000 no-repeat center center fixed;
     -webkit-background-size: 100%; 
     -moz-background-size: 100%; 
     -o-background-size: 100%; 
