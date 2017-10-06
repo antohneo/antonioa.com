@@ -29,7 +29,7 @@
 body{ 
     padding: 4em;
     font-family: 'Catamaran', sans-serif;
-    font-size: 14px;
+    font-size: 1.25em;
     color: #2E2E2E;
 }
 
@@ -38,7 +38,7 @@ body{
 }
 
 .hotdog{
-    background: url(https://media3.giphy.com/media/3og0Izv3p7vMprq2Qw/giphy.gif) 
+    background: url(hotdog.gif) 
     #000000 no-repeat center center fixed;
     -webkit-background-size: 100%; 
     -moz-background-size: 100%; 
@@ -50,23 +50,13 @@ body{
     background-size: cover; 
 } 
 .notHotDog{
-    /*Desktop*/
-    background: url(https://source.unsplash.com/uvMYpVdiqlU) 
+    background: url(unsplash_photos_uvMYpVdiqlU.jpg) 
     #2E2E2E no-repeat center center fixed;
     -webkit-background-size: 100%; 
-    -moz-background-size: 100%; 
-    -o-background-size: 100%; 
     background-size: 100%; 
     -webkit-background-size: cover; 
-    -moz-background-size: cover; 
-    -o-background-size: cover; 
     background-size: cover;
     color: #FFFFFF;
-
-    /*Mobile*/
-    @media only screen and (max-width: 599px) { 
-        background: url(https://source.unsplash.com/lpjb_UMOyx8)
-    }
 } 
 /*************************************************************/
 
