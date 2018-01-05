@@ -1,0 +1,5 @@
++ make background mobile friendly
++ make text mobile friendly
++ change font style of links
++ update resume based on article https://www.fastcompany.com/3066896/the-ultimate-checklist-for-digitally-upgrading-your-resume
++ update color scheme / fonts based on front end ai tool

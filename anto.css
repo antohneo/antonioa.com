@@ -98,3 +98,8 @@ a{
                  0px 8px 13px rgba(0,0,0,0.1),
                  0px 18px 23px rgba(0,0,0,0.1);    
 }
+
+img{
+    max-height: 204.8px ;
+    max-width: 140.7px; 
+}
